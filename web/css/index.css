@@ -1,0 +1,123 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+/* ====================================== */
+
+.sk_bd ul li {
+    padding-top: 25px;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    width: 290px;
+    height: 460px;
+
+}
+
+
+.sk_bd ul li .shopimg {
+    margin-left: 37px;
+    transform: scale(1.2);
+}
+
+
+.sk_bd ul li .shoptext {
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sk_bd ul li .shoptext span {
+
+    color: red;
+}
+
+.sk_bd ul li .putshopcar button{
+    background-color: #ffffff;
+}
+
+.sk_bd ul li .putshopcar {
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid gray;
+    border-radius: 7px 7px 7px 7px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:nth-child(5),
+.sk_bd ul li:nth-child(6),
+.sk_bd ul li:nth-child(7),
+.sk_bd ul li:nth-child(8) {
+
+    margin-bottom: 0px;
+}
+
+
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_container .sk_foot {
+    height: 40px;
+    background-image: url(../upload/bg_02.png);
+}
+
+.sk_container .sk_foot h3 {
+    float: right;
+    padding-right: 3px;
+    padding-top: 8px;
+
+
+}

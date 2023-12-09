@@ -1,0 +1,179 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    padding-bottom: 20px;
+    position: relative;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea h3 li {
+    display: inline-block;
+}
+
+/* 有待修改，感觉这里的定位有些问题，后续再看 */
+.count {
+    position: absolute;
+    top: -5px;
+    left: 53px;
+    height: 14px;
+
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60013;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0px;
+}
+
+/* ------------- */
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+
+/* -------------------------------------- */
+
+
+.info {
+
+    height: 100px;
+    background-color: #fff4e8;
+    border: 1px solid gray;
+    margin: 20px 10px 0px 10px;
+    border-top: 3px solid gray;
+}
+
+.info li {
+    float: left;
+    margin-top: 20px;
+}
+
+.info a {
+
+    font-size: 12px;
+    color: #302d2d;
+
+}
+
+.info_1 {
+    margin-left: 45px;
+    border: 3px solid gray;
+
+}
+
+.info_1 img {
+    height: 60px;
+}
+
+.info_2,
+.info_3,
+.info_4,
+.info_5 {
+    margin-left: 45px;
+}
+
+
+.info_4 button {
+    width: 30px;
+    height: 18px;
+}
+
+.info_del {
+    margin-left: 440px;
+
+}
+
+.info_del a {
+
+    color: red;
+}
+
+.banlance {
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid gray;
+    margin: 20px 10px 0px 10px;
+}
+
+.banlance .button ul li {
+    display: inline;
+}
+
+
+
+.banlance .button {
+    float: right;
+}
+
+
+
+.banlance .button {
+    width: 100px;
+    height: 80px;
+    background-color: #C91623;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.balance span {
+
+    font-size: 25px;
+    color: #C91623;
+    font-weight: bold;
+}
+
+
+.fl {
+    font-size: 22px;
+    margin-left: 22px;
+    margin-top: 22px;
+    float: left;
+}
